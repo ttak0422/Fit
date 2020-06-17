@@ -6,5 +6,8 @@
         "terminal.integrated.shell.linux": "/bin/bash"
     },
     "postCreateCommand": "yarn install",
-    "forwardPorts": [8888]
+    "forwardPorts": [8888],
+    "extensions": [
+        "esbenp.prettier-vscode"
+    ]
 }
